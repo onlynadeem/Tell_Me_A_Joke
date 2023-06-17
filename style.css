@@ -15,8 +15,11 @@ html {
 
 nav {
     display: flex;
-    background-color: rgb(40, 40, 43);
+    background-color: rgb(54 54 59);
     height: 10vh;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
 }
 
 li a {
@@ -65,22 +68,20 @@ nav ul li {
     /* background-image: url("https://i.pinimg.com/originals/54/2d/8e/542d8e8780022d6ba993fa4e7e03a717.jpg"); */
     background-size: contain;
 }
-
 .container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 3vh auto;
+    margin: 5vh auto;
     align-items: center;
-    height: 50vh;
-    width: 60vw;
-    border: 1vw double dodgerblue;
-    background-color: rgb(40, 40, 43);
-    color: azure;
+    height: 52vh;
+    width: 66vw;
+    border: 1vw inset #aab5bf;
+    background-color: rgb(255 255 255);
+    color: #36363b;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
 }
-
 #Joke_box {
     margin: 0vh 1vw;
 }
@@ -110,7 +111,7 @@ button:hover {
     bottom: 0vh;
     height: 7vh;
     width: 100vw;
-    background-color: grey;
+    background-color: #36363b;
     color: azure;
     font-size: 1.2vw;
 }
